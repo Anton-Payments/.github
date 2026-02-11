@@ -2,42 +2,42 @@
 
 # Anton Payments
 
-### Global payout infrastructure for modern businesses
+**Global payout infrastructure for modern businesses.**
 
-Move money anywhere in the world — any rail, any currency, any destination.<br/>
-One API. Built for compliance. Designed for scale.
-
----
-
-<table>
-<tr>
-<td align="center" width="25%"><strong>Multi-Rail</strong><br/><sub>SWIFT · SEPA · ACH · FPS<br/>Cards · Mobile Money · Crypto</sub></td>
-<td align="center" width="25%"><strong>Compliance-First</strong><br/><sub>ISO 27001 · SOC 2 Type II<br/>PCI DSS · AML/KYC</sub></td>
-<td align="center" width="25%"><strong>Real-Time</strong><br/><sub>Webhooks · Event-driven<br/>Instant status updates</sub></td>
-<td align="center" width="25%"><strong>Intelligent</strong><br/><sub>Smart routing · Risk engine<br/>Fraud detection</sub></td>
-</tr>
-</table>
+We help companies move money across borders — to banks, cards, mobile wallets, and digital assets —<br/>
+through a single API designed for compliance, reliability, and scale.
 
 ---
 
 </div>
 
-#### Platform
+### Why Anton
 
-| Component | Description |
-|-----------|-------------|
-| **API** | Core backend — payout orchestration, ledger, compliance, and risk engine |
-| **Merchant Portal** | Client-facing dashboard for managing payouts, beneficiaries, and balances |
-| **Operations Portal** | Internal tools for underwriting, compliance, finance, and support |
-| **Documentation** | API reference with interactive examples |
+- **One integration, every rail** — SWIFT, SEPA, ACH, FPS, cards, mobile money, and stablecoins through a unified API
+- **Built for compliance** — designed from day one around ISO 27001, SOC 2 Type II, and PCI DSS requirements
+- **Smart routing** — automatic rail selection, failover, and cost optimization per corridor
+- **Real-time visibility** — webhooks, audit trails, and status tracking for every transaction
+- **Fraud & risk controls** — configurable velocity rules, geo-blocking, sanctions screening, and maker-checker approvals
 
-#### Engineering
+### For Developers
 
-Built on `Go` · `PostgreSQL` · `Redis` · `Next.js` · `React` · `TypeScript`
+Everything you need to integrate payouts into your platform:
 
-Double-entry ledger for every money movement. State machines that enforce valid transitions.
-Prefixed IDs for global uniqueness. Parameterized queries everywhere. Zero PII in logs.
+- **[API Documentation](https://docs.antonpayments.com)** — full reference with request/response examples
+- **[OpenAPI Spec](https://github.com/Anton-Payments/api-core/blob/main/docs/openapi.yaml)** — generate clients in any language
+- **Idempotent endpoints** — safe to retry without duplicate payouts
+- **Sandbox environment** — test with `ak_test_` keys, no real money moves
+
+### Security
+
+We take security seriously. If you discover a vulnerability, please review our **[Security Policy](https://github.com/Anton-Payments/.github/blob/main/SECURITY.md)** for responsible disclosure guidelines.
+
+---
 
 <div align="center">
-<sub>© 2026 Anton Payments</sub>
+
+**[Website](https://antonpayments.com)** · **[API Docs](https://docs.antonpayments.com)** · **[Contact Us](mailto:hello@antonpayments.com)**
+
+<sub>© 2026 Anton Payments. All rights reserved.</sub>
+
 </div>
