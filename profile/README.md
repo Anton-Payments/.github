@@ -1,21 +1,43 @@
+<div align="center">
+
 # Anton Payments
 
-**Cross-border payout infrastructure for global businesses.**
+### Global payout infrastructure for modern businesses
 
-We help businesses move money anywhere in the world — fast, compliant, and reliable.
-
-### What we do
-
-- 🌍 **Multi-rail global payouts** — bank transfers (SWIFT, SEPA, ACH, FPS), cards, mobile money, crypto, and stablecoins
-- 🏦 **Double-entry ledger** — every movement tracked with balanced debits and credits
-- 🔒 **Compliance-first** — built for ISO 27001, SOC 2 Type II, and PCI DSS from day one
-- ⚡ **Real-time webhooks** — 16 event types keep your systems in sync
-- 🛡️ **Fraud & risk engine** — velocity rules, geo-blocking, maker-checker approvals
-
-### Built with
-
-`Go` · `PostgreSQL` · `Redis` · `Next.js` · `React` · `TypeScript` · `Tailwind CSS`
+Move money anywhere in the world — any rail, any currency, any destination.<br/>
+One API. Built for compliance. Designed for scale.
 
 ---
 
-<sub>© 2026 Anton Payments · [Website](https://antonpayments.com)</sub>
+<table>
+<tr>
+<td align="center" width="25%"><strong>Multi-Rail</strong><br/><sub>SWIFT · SEPA · ACH · FPS<br/>Cards · Mobile Money · Crypto</sub></td>
+<td align="center" width="25%"><strong>Compliance-First</strong><br/><sub>ISO 27001 · SOC 2 Type II<br/>PCI DSS · AML/KYC</sub></td>
+<td align="center" width="25%"><strong>Real-Time</strong><br/><sub>Webhooks · Event-driven<br/>Instant status updates</sub></td>
+<td align="center" width="25%"><strong>Intelligent</strong><br/><sub>Smart routing · Risk engine<br/>Fraud detection</sub></td>
+</tr>
+</table>
+
+---
+
+</div>
+
+#### Platform
+
+| Component | Description |
+|-----------|-------------|
+| **API** | Core backend — payout orchestration, ledger, compliance, and risk engine |
+| **Merchant Portal** | Client-facing dashboard for managing payouts, beneficiaries, and balances |
+| **Operations Portal** | Internal tools for underwriting, compliance, finance, and support |
+| **Documentation** | API reference with interactive examples |
+
+#### Engineering
+
+Built on `Go` · `PostgreSQL` · `Redis` · `Next.js` · `React` · `TypeScript`
+
+Double-entry ledger for every money movement. State machines that enforce valid transitions.
+Prefixed IDs for global uniqueness. Parameterized queries everywhere. Zero PII in logs.
+
+<div align="center">
+<sub>© 2026 Anton Payments</sub>
+</div>
