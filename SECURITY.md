@@ -1,49 +1,32 @@
-# Security Policy
+# Security policy
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-Anton Payments takes security seriously. We appreciate your efforts to responsibly disclose your findings.
+Please don't report security issues in public GitHub issues.
 
-**Please do NOT report security vulnerabilities through public GitHub issues.**
+Email **security@antonpayments.com** with:
 
-Instead, please report them via email to:
+- what you found and where
+- steps to reproduce it
+- the impact you think it has
+- the name or handle you'd like credited, if any
 
-📧 **security@antonpayments.com**
+We acknowledge reports within 2 business days and send an initial assessment within 5. You'll hear a fix timeline once we know the severity.
 
-Please include:
-- A description of the vulnerability
-- Steps to reproduce the issue
-- Any potential impact you've identified
-- Your name/handle for credit (optional)
+## In scope
 
-### What to expect
+- The Anton API, in production and the sandbox (`api.antonpayments.com`, `api.antonpayments.dev`)
+- The merchant portal and sign-in (`app.` and `auth.` on both domains)
+- Our website and the public docs (`docs.antonpayments.com`, `Anton-Payments/docs`)
 
-- **Acknowledgment** within 2 business days
-- **Initial assessment** within 5 business days
-- **Resolution timeline** communicated based on severity
+## Out of scope
 
-### Scope
+- Social engineering, phishing and physical attacks
+- Denial of service and volumetric testing
+- Vulnerabilities in third-party services or dependencies (please report those upstream)
 
-The following are in scope:
-- Anton API (`api-core`)
-- Anton merchant portal
-- Anton operations portal
-- Anton marketing website
+Test against the sandbox, not production, and never against other customers' data. If you're unsure whether something is in scope, ask us first.
 
-### Out of scope
+## Compliance
 
-- Social engineering attacks
-- Denial of service attacks
-- Issues in third-party dependencies (report upstream)
-- Issues requiring physical access to a device
-
-## Supported Versions
-
-We support the latest released version. Security patches are applied to the current release only.
-
-## Security Standards
-
-We are building toward certification for:
-- **ISO 27001** — Information Security Management
-- **SOC 2 Type II** — Trust Services Criteria
-- **PCI DSS** — Payment Card Industry Data Security Standard
+Our regulatory registrations and compliance programme are described in the [compliance statement](https://www.antonpayments.com/legal/compliance-statement/).

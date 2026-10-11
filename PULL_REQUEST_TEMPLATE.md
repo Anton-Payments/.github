@@ -1,41 +1,19 @@
-## Description
+## What and why
 
-<!-- What does this PR do? Why is it needed? -->
+<!-- What this changes and the reason. Link the issue. -->
 
-## Type of change
+## How it was checked
 
-- [ ] 🐛 Bug fix (non-breaking change that fixes an issue)
-- [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] 📝 Documentation update
-- [ ] ♻️ Refactor (no functional changes)
-- [ ] 🧪 Test update
+<!-- Tests run, and what you saw working. A green check is not the same as seeing it work. -->
 
-## Changes
+## Rules this touches
 
-<!-- Bullet list of key changes -->
+<!-- Tick what applies, or write "none" for docs-only changes. -->
 
--
-
-## Testing
-
-<!-- How was this tested? -->
-
-- [ ] Unit tests added/updated
-- [ ] Integration tests added/updated
-- [ ] Manual testing performed
-
-## Compliance checklist
-
-<!-- For changes touching payments, PII, auth, or sensitive flows -->
-
-- [ ] No PII logged at INFO+ level
-- [ ] No secrets hardcoded
-- [ ] Input validation in place
-- [ ] Audit trail entries created for state changes
-- [ ] Parameterized queries used (no SQL injection risk)
-
-## Screenshots
-
-<!-- If applicable, add screenshots or recordings -->
-
+- [ ] Personal data and payment credentials stay in the vault: never in our database or logs
+- [ ] Money and identity changes write an audit record (who, what, when, outcome)
+- [ ] Authorization is checked in the handler, on the role
+- [ ] Migrations are new files only; no applied migration was edited
+- [ ] Secrets come from Secret Manager, not source
+- [ ] Infrastructure changes are in Terraform
+- [ ] Sanctions screening still sits in the payout path and fails closed
