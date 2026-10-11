@@ -1,58 +1,31 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+  <img alt="Anton. Intelligence and payouts. Anton isn't using AI. Anton is the AI." src="./banner-light.svg" width="100%">
+</picture>
 
-# Anton Payments
+Every payment carries a story. We built Anton to read it.
 
-**Cross-border payouts shouldn't be this hard.**
+### Anton Intelligence
 
-Moving money globally means stitching together fragmented rails, navigating compliance in every corridor, and hoping your fraud rules keep up. Most platforms bolt these pieces together as an afterthought.
+Most systems check a payment. Anton knows who's behind it, and makes the call before the money moves. Use it on its own, in any payment flow.
 
-We built Anton from scratch to solve this — a single payout API where compliance, risk intelligence, and multi-rail routing are foundational, not features you add later.
+### Anton Payouts
 
----
+Pay sellers, creators, drivers, contractors and freight partners anywhere, in the money they actually use: local currency, digital dollars or crypto. Every payout goes through Intelligence first.
 
-</div>
+### Build with Anton
 
-### What We Do
+- **[docs.antonpayments.com](https://docs.antonpayments.com)**, the guides and API reference
+- **[Sandbox keys](https://www.antonpayments.com/developers/)**, free to start
+- **[Anton-Payments/docs](https://github.com/Anton-Payments/docs)**, the source of the docs, open for issues
 
-Anton is payout infrastructure. Our clients send us money; we deliver it to their recipients anywhere in the world — to bank accounts, cards, mobile wallets, or digital assets. One API call. We handle the routing, the compliance, and the risk.
+### Trust
 
-**Every rail, one integration.** SWIFT, SEPA, ACH, FPS, cards, mobile money, and stablecoins. We route each payout to the optimal rail for the corridor — factoring in cost, speed, and availability — with automatic failover when a provider is down.
+Registered as a money services business with FinCEN in the United States and FINTRAC in Canada. Found a security issue? Our [security policy](https://github.com/Anton-Payments/.github/blob/main/SECURITY.md) says how to reach us.
 
-**Compliance is the product, not a checkbox.** Every payout is screened against OFAC, PEP, and sanctions lists before it moves. Maker-checker approvals enforce separation of duties on high-value transactions. Full audit trail on every state change. We're building to ISO 27001, SOC 2 Type II, and PCI DSS — not because we have to, but because our clients need us to.
-
-### AI-Powered Risk Engine
-
-Static rules catch known threats. They don't adapt, and they don't learn.
-
-Our risk engine starts with configurable rules — velocity limits, geo-blocking, duplicate detection, sanctions screening — and layers AI on top:
-
-- **Adaptive thresholds** — models analyze each merchant's historical patterns and propose rule adjustments. A $100K payout is normal for a merchant doing $500K/day. It's suspicious for one doing $500/day. Our engine knows the difference.
-- **Behavioral risk scoring** — every payout receives a real-time risk score based on amount deviation, beneficiary novelty, geographic anomalies, temporal patterns, and velocity spikes relative to the merchant's own baseline.
-- **Feedback-driven learning** — ops decisions on flagged payouts become training data. The model improves continuously. False positives go down. Catch rates go up.
-- **Emerging risk detection** — AI monitors aggregate patterns across all corridors and merchants, surfacing new risks before they become incidents.
-
-The static engine is the floor. AI is the intelligence above it. Compliance rules are never weakened — only strengthened.
-
-### For Developers
-
-We're developers too. The API is designed to get out of your way:
-
-- **[API Documentation](https://docs.antonpayments.com)** — complete reference with request/response examples for every endpoint
-- **[OpenAPI Spec](https://github.com/Anton-Payments/api-core/blob/main/docs/openapi.yaml)** — generate a typed client in any language
-- **Idempotent by design** — safe to retry any request without creating duplicate payouts
-- **Sandbox environment** — full API access with test keys, no real money moves
-- **Webhooks** — real-time event notifications for every payout state change
-
-### Security
-
-If you discover a vulnerability, please review our **[Security Policy](https://github.com/Anton-Payments/.github/blob/main/SECURITY.md)** for responsible disclosure guidelines.
-
----
-
-<div align="center">
-
-**[Website](https://antonpayments.com)** · **[API Docs](https://docs.antonpayments.com)** · **[Contact Us](mailto:hello@antonpayments.com)**
-
-<sub>© 2026 Anton Payments. All rights reserved.</sub>
-
-</div>
+<p align="center">
+  <a href="https://www.antonpayments.com">Website</a> ·
+  <a href="https://docs.antonpayments.com">Docs</a> ·
+  <a href="https://www.antonpayments.com/careers/">Careers</a> ·
+  <a href="https://www.antonpayments.com/contact/">Contact</a>
+</p>
